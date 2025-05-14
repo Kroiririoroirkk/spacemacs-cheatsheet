@@ -85,11 +85,13 @@ SPC w j/k/h/l – switch to window up/down/left/right
 SPC w J/K/H/L – move window up/down/left/right
 SPC <number> – switch to window number <number>
 SPC TAB – go to previous buffer visited by window
+q – quit a buffer (in many different settings)
 
 Git
 SPC g i – git init
 SPC g c – git clone
 SPC g s – open a status buffer
+h IN STATUS BUFFER – help
 s IN STATUS BUFFER – stage a file
 S IN STATUS BUFFER – stage all
 u IN STATUS BUFFER – unstage a file
@@ -97,6 +99,7 @@ U IN STATUS BUFFER – unstage all
 M IN STATUS BUFFER – remote (can paste URL with C-y)
 b IN STATUS BUFFER – branch
 p IN STATUS BUFFER – push
+F IN STATUS BUFFER – pull
 c IN STATUS BUFFER – commit
 , c IN COMMIT BUFFER - confirm and quit commit message
 , a IN COMMIT BUFFER – abort and quit commit message
