@@ -97,3 +97,4 @@ U IN STATUS BUFFER – unstage all
 c c IN STATUS BUFFER – commit
 , c IN COMMIT BUFFER - confirm and quit commit message
 , a IN COMMIT BUFFER – abort and quit commit message
+SPC g p – git push
