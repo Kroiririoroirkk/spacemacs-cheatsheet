@@ -97,6 +97,6 @@ U IN STATUS BUFFER – unstage all
 M IN STATUS BUFFER – remote (can paste URL with C-y)
 b IN STATUS BUFFER – branch
 p IN STATUS BUFFER – push
-c c IN STATUS BUFFER – commit
+c IN STATUS BUFFER – commit
 , c IN COMMIT BUFFER - confirm and quit commit message
 , a IN COMMIT BUFFER – abort and quit commit message
