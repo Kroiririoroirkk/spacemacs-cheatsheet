@@ -34,6 +34,8 @@ Author: Eric Tao
 * `SPC i K` – new line above
 * `o` – new line below and go to insert mode
 * `O` – new line above and go to insert mode
+* `.` – repeat last edit command
+* `<number>.` – repeat last edit command `<number>` times
 
 ## Cut and paste
 * `v` – enter visual character mode (highlight)
@@ -72,6 +74,7 @@ Author: Eric Tao
 ## Program
 * `SPC q q` – quit
 * `SPC q r` – restart
+* `SPC f e d` – open `.spacemacs`
 
 ## Frames and windows
 * `SPC F n` – create a new frame
