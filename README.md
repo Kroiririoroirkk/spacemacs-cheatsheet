@@ -111,3 +111,7 @@ Author: Eric Tao
 * `c` in status buffer – commit
 * `, c` in commit buffer - confirm and quit commit message
 * `, a` in commit buffer – abort and quit commit message
+
+## Markdown
+* `SPC m c p` – preview
+* `SPC m c P` – enable/disable live preview mode
