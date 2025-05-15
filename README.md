@@ -70,6 +70,7 @@ Author: Eric Tao
 * `SPC f f` – new file or open file
 * `SPC f s` – save file
 * `SPC f R` – rename file
+* `SPC f d` – delete file
 
 ## Program
 * `SPC q q` – quit
