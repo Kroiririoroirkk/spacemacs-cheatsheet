@@ -63,6 +63,8 @@ Author: Eric Tao
 ## Search
 * `/<pattern> RET` – Forward search `<pattern>`
 * `?<pattern> RET` – Backward search `<pattern>`
+* `*` – Next occurrence of word under cursor
+* `#` – Previous occurrence of word under cursor
 * `:%s/<old>/<new>/g RET` – Replace every `<old>` for `<new>` in whole buffer
 * `:%s/<old>/<new>/gc RET` – Replace every `<old>` for `<new>` in whole buffer (confirm each time)
 
@@ -76,6 +78,9 @@ Author: Eric Tao
 * `SPC q q` – quit
 * `SPC q r` – restart
 * `SPC f e d` – open `.spacemacs`
+* `SPC f e R` – apply changes to `.spacemacs`
+* `:!` – execute shell command
+* `SPC ?` – search through key bindings in current major mode
 
 ## Frames and windows
 * `SPC F n` – create a new frame
@@ -114,5 +119,21 @@ Author: Eric Tao
 * `, a` in commit buffer – abort and quit commit message
 
 ## Markdown
-* `SPC m c p` – preview
-* `SPC m c P` – enable/disable live preview mode
+* `, c p` – preview
+* `, c P` – enable/disable live preview mode
+
+## Python
+* `, =` – reformat buffer
+* `, c c` – execute current file
+* `, '` – start Python
+* `, v a` – activate virtual environment
+* `, v d` – deactivate virtual environment
+* `, g a` – go to a variable assignment
+* `, g b` – go back
+* `, h h` – quick documentation
+* `, S d` – insert docstring skeleton using sphinx-doc
+* `, r f` – fix missing import statement with importmagic
+* `, r i` – remove unused imports with autoflake
+* `, r I` – sort imports with isort
+* `C-c <` – de-indent one layer
+* `C-c >` – indent one layer
