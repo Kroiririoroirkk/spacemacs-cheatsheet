@@ -99,6 +99,7 @@ Author: Eric Tao
 * `SPC w J/K/H/L` – move window up/down/left/right
 * `SPC <number>` – switch to window number `<number>`
 * `SPC TAB` – go to previous buffer visited by window
+* `SPC b s` – open the scratch buffer
 * `q` – quit a buffer (in many different settings)
 
 ## Git
@@ -121,6 +122,8 @@ Author: Eric Tao
 ## Markdown
 * `, c p` – preview
 * `, c P` – enable/disable live preview mode
+* `, c e` – export
+* `S-TAB` – collapse/show content under headings
 
 ## Python
 * `, =` – reformat buffer
@@ -132,8 +135,13 @@ Author: Eric Tao
 * `, g b` – go back
 * `, h h` – quick documentation
 * `, S d` – insert docstring skeleton using sphinx-doc
-* `, r f` – fix missing import statement with importmagic
 * `, r i` – remove unused imports with autoflake
 * `, r I` – sort imports with isort
 * `C-c <` – de-indent one layer
 * `C-c >` – indent one layer
+* `SPC c l` – comment or uncomment lines
+* `, r` – restart Python in inferior Python mode
+
+## Org
+* `, T T` – mark a TODO item as DONE
+* `M-S-RET` – insert TODO item
