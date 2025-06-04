@@ -80,6 +80,7 @@ Author: Eric Tao
 * `SPC f e d` – open `.spacemacs`
 * `SPC f e R` – apply changes to `.spacemacs`
 * `:!` – execute shell command
+* `SPC '` – open a shell window
 * `SPC ?` – search through key bindings in current major mode
 
 ## Frames and windows
@@ -119,11 +120,19 @@ Author: Eric Tao
 * `, c` in commit buffer - confirm and quit commit message
 * `, a` in commit buffer – abort and quit commit message
 
+## LaTeX
+* `, a u` – compile and open viewer
+* `, c` – compile
+
 ## Markdown
 * `, c p` – preview
 * `, c P` – enable/disable live preview mode
 * `, c e` – export
 * `S-TAB` – collapse/show content under headings
+
+## Org
+* `, T T` – mark a TODO item as DONE
+* `M-S-RET` – insert TODO item
 
 ## Python
 * `, =` – reformat buffer
@@ -141,7 +150,3 @@ Author: Eric Tao
 * `C-c >` – indent one layer
 * `SPC c l` – comment or uncomment lines
 * `, r` – restart Python in inferior Python mode
-
-## Org
-* `, T T` – mark a TODO item as DONE
-* `M-S-RET` – insert TODO item
