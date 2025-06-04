@@ -73,6 +73,12 @@ Author: Eric Tao
 * `SPC f s` – save file
 * `SPC f R` – rename file
 * `SPC f d` – delete file
+* `SPC 0` – open treemacs
+* `?` in treemacs – open help
+* `C-c C-p a` in treemacs – open a project
+* `d` in treemacs – delete
+* `Q` in treemacs – kill treemacs buffer
+* `R` in treemacs – rename
 
 ## Program
 * `SPC q q` – quit
