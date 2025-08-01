@@ -63,6 +63,8 @@ Author: Eric Tao
 ## Search
 * `/<pattern> RET` – Forward search `<pattern>`
 * `?<pattern> RET` – Backward search `<pattern>`
+* `n` – Next occurrence of search item
+* `N` – Previous occurrence of search item
 * `*` – Next occurrence of word under cursor
 * `#` – Previous occurrence of word under cursor
 * `:%s/<old>/<new>/g RET` – Replace every `<old>` for `<new>` in whole buffer
