@@ -69,6 +69,7 @@ Author: Eric Tao
 * `#` – Previous occurrence of word under cursor
 * `:%s/<old>/<new>/g RET` – Replace every `<old>` for `<new>` in whole buffer
 * `:%s/<old>/<new>/gc RET` – Replace every `<old>` for `<new>` in whole buffer (confirm each time)
+* `SPC s d` – Search content of multiple files
 
 ## File
 * `SPC f f` – new file or open file
